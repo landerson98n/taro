@@ -67,7 +67,7 @@ export default function TarotReader() {
       <h1 className="text-4xl font-bold text-white mb-8">Leitor de Tarô</h1>
 
       <Select onValueChange={(value) => setReadingType(value as ReadingType)}>
-        <SelectTrigger className="w-[200px] mb-4">
+        <SelectTrigger className="w-[200px] mb-4 text-white">
           <SelectValue placeholder="Tipo de leitura" />
         </SelectTrigger>
         <SelectContent>
